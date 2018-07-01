@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exam Portal</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" script-name="bangers" src="http://use.edgefonts.net/bangers.js"></script>
+        <style>
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            #containter{
+                width: 100%;
+                height: 100vh;
+            }
+            #left{
+                background-image: url(students.jpg);
+                background-size: cover;
+                width: 50%;
+                height: 100vh;
+                float: left;
+            }
+            #right{
+                background-image: url(teachers.jpg);
+                background-size: cover;
+                width: 50%;
+                height: 100vh;
+                float: right;
+            }
+            #centered {
+                font: normal 120px/1 "bangers", Helvetica, sans-serif;
+                color: white;
+                background-color: black;
+                padding: 20px;
+                letter-spacing: 2px;
+                position: absolute;
+                top: 15%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 5;
+            }
+            #centered1 {
+                font: normal 100px/1 "bangers", Helvetica, sans-serif;
+                color: white;
+                background-color: black;
+                padding: 15px;
+                letter-spacing: 2px;
+                position: absolute;
+                top: 50%;
+                left: 25%;
+                transform: translate(-50%, -50%);
+                z-index: 5;
+            }
+            #centered2 {
+                font: normal 100px/1 "bangers", Helvetica, sans-serif;
+                color: black;
+                background-color: white;
+                padding: 15px;
+                letter-spacing: 2px;
+                position: absolute;
+                top: 50%;
+                left: 75%;
+                transform: translate(-50%, -50%);
+
+            }
+            #centered1:hover{
+                font: normal 120px/1 "bangers", Helvetica, sans-serif;
+                transition: all 0.5s;
+            }
+            #centered2:hover{
+                font: normal 120px/1 "bangers", Helvetica, sans-serif;
+                transition: all 0.5s;
+            }
+            a:link {
+                text-decoration: inherit;
+                color: inherit;
+                cursor: auto;
+            }
+            a:visited {
+                text-decoration: inherit;
+                color: inherit;
+                cursor: auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="left"></div>
+            <div id="centered1"><a href="SLogin.html">A STUDENT</a></div>
+            <div id="centered">WHO ARE YOU?</div>
+            <div id="right"></div>
+            <div id="centered2"><a href="TLogin.html">A TEACHER</a></div>
+        </div>
+    </body>
+</html>
