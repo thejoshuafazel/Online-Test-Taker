@@ -66,3 +66,6 @@ Start the server and open the local address of the project.
 
 ## Authors
 * Joshua Fazel
+* Krutarth
+* Anosh
+* Abhishek
